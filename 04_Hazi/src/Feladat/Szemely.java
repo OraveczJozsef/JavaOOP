@@ -6,7 +6,7 @@ public class Szemely {
 	private int suly;
 	private double magassag;
 
-	/* Getter */
+	/* Getter & Setter */
 	public String getNev() {
 		return this.nev;
 	}
@@ -19,8 +19,6 @@ public class Szemely {
 		return this.magassag;
 	}
 	
-
-	/* Setter */
 	public void setNev(String nev) {
 		this.nev = nev;
 	}
