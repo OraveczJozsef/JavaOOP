@@ -18,6 +18,7 @@ public class Szemely {
 	public double getMagassag() {
 		return this.magassag;
 	}
+	
 
 	/* Setter */
 	public void setNev(String nev) {
@@ -48,9 +49,9 @@ public class Szemely {
 		double tti = this.getTesttomegIndex();
 		
 		if (tti < 18.5)
-			return "sovány";
+			return "sovany";
 		else if (tti > 25)
-			return "kövér";
+			return "kover";
 		else
 			return "normal";
 	}
