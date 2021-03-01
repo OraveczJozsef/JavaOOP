@@ -18,8 +18,6 @@ public class Main {
 				szemely = new Szemely(tempArray[0], Integer.parseInt(tempArray[1]), Double.parseDouble(tempArray[2]));
 				isValid = true;
 				/*
-					!!! Konstruktor nélkül !!!
-					
 					szemely = new Szemely();
 					szemely.setNev(tempArray[0]);
 					szemely.setSuly(Integer.parseInt(tempArray[0]));
