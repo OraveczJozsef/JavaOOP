@@ -16,7 +16,14 @@ public class Main {
 			
 			try {
 				szemely = new Szemely(tempArray[0], Integer.parseInt(tempArray[1]), Double.parseDouble(tempArray[2]));
-				//System.out.println(szemely.toString());
+				/*
+					!!! Konstruktor nélkül !!!
+					
+					szemely = new Szemely();
+					szemely.setNev(tempArray[0]);
+					szemely.setSuly(Integer.parseInt(tempArray[0]));
+					szemely.setMagassag(Double.parseDouble(tempArray[0]));
+				*/
 			} catch (Exception error) {
 				System.out.println("Hiba: " + error);
 				isValid = false;
