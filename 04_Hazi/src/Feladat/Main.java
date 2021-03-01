@@ -16,8 +16,9 @@ public class Main {
 			
 			try {
 				szemely = new Szemely(tempArray[0], Integer.parseInt(tempArray[1]), Double.parseDouble(tempArray[2]));
+				isValid = true;
 				/*
-					!!! Konstruktor nélkül !!!
+					!!! Konstruktor nÃ©lkÃ¼l !!!
 					
 					szemely = new Szemely();
 					szemely.setNev(tempArray[0]);
